@@ -14,7 +14,7 @@ public class Main {
         a.name = "Spot";
         a.says = "Ruff";
         b.name = "Scruffy";
-        b.says = "Ruff";
+        b.says = "Wuff";
         System.out.println(a.name+ " " +a.says);
         System.out.println(b.name+ " " +b.says);
 
