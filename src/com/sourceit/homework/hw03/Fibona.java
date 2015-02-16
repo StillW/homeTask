@@ -11,7 +11,7 @@ public class Fibona {
         int a=1,b=1,c;
         System.out.println("Thats first two numbers of sequence " +a+ " and "+b);
 
-        for (int q=3;q<11;q++){
+        for (int q=1;q<9;q++){
             c = a+b;
             a=b;
             b=c;
