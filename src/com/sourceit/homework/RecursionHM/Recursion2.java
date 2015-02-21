@@ -1,4 +1,4 @@
-package com.sourceit.homework.hw03.RecursionHW;
+package com.sourceit.homework.RecursionHM;
 
 /**
  * •	Подсчитайте, сколько раз потребуется повторно вычислить четвёртый элемент последовательности

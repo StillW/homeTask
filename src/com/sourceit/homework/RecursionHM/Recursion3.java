@@ -1,4 +1,4 @@
-package com.sourceit.homework.hw03.RecursionHW;
+package com.sourceit.homework.RecursionHM;
 
 import java.util.Scanner;
 
