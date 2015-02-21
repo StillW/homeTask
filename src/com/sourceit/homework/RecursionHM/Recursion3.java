@@ -14,22 +14,31 @@ public class Recursion3 {
         Scanner a = new Scanner(System.in);
         if (a.hasNextInt()) {
             int k = a.nextInt();
-            rec(k);
+            Recursion3 b = new Recursion3();
+            b.rec(k);//rec(k);
             System.out.println(" " + k);
         } else System.out.println("You entered is not a number");
     }
 
-           public static int rec ( int q){
+    void rec(int k) {
 
-            if (q > 2) {
-                q = q - 1;
-                rec(q);
-                System.out.println(" " + q);
-                return q;
-            }
+        for (int i = 2; i < k; i++) {
+            if (isPro(i, i - 1))
+                System.out.println(i + " ");
 
-            return 2;
         }
     }
+
+    boolean isPro(int p, int w) {
+
+        if (w == 1) return true;
+        {
+        }
+        if (p % w != 0) {
+            return isPro(p, w - 1);
+        }
+        return false;
+    }
+}
 
 
