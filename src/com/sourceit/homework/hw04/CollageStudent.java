@@ -36,7 +36,7 @@ public class CollageStudent extends Students{
 
     @Override
     public String toString() {
-        return super.age + ", Name: " + super.name + ", Gender: " + super.gender + ", Student id: " + super.idNumber + ", GPA: " +
+        return super.toString() + ", Student id: " + super.idNumber + ", GPA: " +
                 super.GPA + ", Year: " + this.year + ", Major: " + this.major;
     }
 }
