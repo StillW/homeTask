@@ -1,0 +1,74 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+  <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registration</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.Registration</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminHomeHandler</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.admin.AdminHomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminHomeHandler</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistrationHandler</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.RegistrationHandler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegistrationHandler</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveText</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.admin.UserSaveText</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveText</servlet-name>
+        <url-pattern>/st</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HomeVoc</servlet-name>
+        <servlet-class>com.sourceit.webtask.controller.common.admin.AdminHomeVoc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeVoc</servlet-name>
+        <url-pattern>/hc</url-pattern>
+    </servlet-mapping>
+
+</web-app>
